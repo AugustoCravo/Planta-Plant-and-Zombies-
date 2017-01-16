@@ -7,6 +7,12 @@ public:
     Plant();
     ~Plant();
 
+    void Ataque();
+
+private:
+    
+    int dano;
+
 };
 
 #endif // PLANT_H

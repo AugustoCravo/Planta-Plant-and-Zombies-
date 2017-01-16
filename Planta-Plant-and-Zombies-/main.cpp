@@ -1,7 +1,12 @@
-#include <stdio.h>
-
+#include <iostream>
+using std::cout;
+#include "Plant.h"
 int main(int argc, char **argv)
 {
-	printf("hello world\n");
+    Plant ataque1;
+    
+    ataque1.Ataque();
+    
+	cout << "hello world\n";
 	return 0;
 }
