@@ -6,15 +6,17 @@ class Plant
 public:
     Plant();
     ~Plant();
-
+    Plant(const string &);
+    Plant(const Plant &);
+    
     void Ataque();
-    int Level();
+    void Level();
 
 private:
     
     int dano;
     string nome;
-    static int tipo;
+    static void tipo;
 
 };
 
