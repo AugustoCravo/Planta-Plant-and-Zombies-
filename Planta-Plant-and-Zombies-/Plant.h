@@ -8,10 +8,13 @@ public:
     ~Plant();
 
     void Ataque();
+    int Level();
 
 private:
     
     int dano;
+    string nome;
+    static int tipo;
 
 };
 

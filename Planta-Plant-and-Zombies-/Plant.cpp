@@ -10,7 +10,7 @@ Plant::Plant()
 Plant::~Plant()
 {
 }
-
+int Plant::Level()
 void Plant::Ataque()
 {
     cout << "O ataque é" <<dano<<'\n'; 
